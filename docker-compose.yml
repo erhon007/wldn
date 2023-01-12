@@ -24,7 +24,7 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - "mysql_data:/var/lib/mysql"
+      - "mysql_data:/var/lib/mysql1"
   wldn_gophish:
     image: deb.wldn.kz:8443/welldone/gophish:1
     container_name: wldn_gophish
